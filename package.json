@@ -1,0 +1,28 @@
+{
+  "name": "cvg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "json": "^9.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "logger": "0.0.1",
+    "method-override": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "url": "^0.11.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
